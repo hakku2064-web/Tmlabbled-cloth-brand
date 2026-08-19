@@ -1,0 +1,11 @@
+body {
+background-color: black;
+ 
+  margin: 0;
+}
+
+.main-content {
+  flex: 1;
+  margin-left:340px;
+  padding: 20px;
+} 
