@@ -36,14 +36,14 @@
 .nav-links a,
 .footer-links a {
   text-decoration: none;
-  color: rgb(231, 231, 32);
+  color: #990000;
   font-size: 12px;
   transition: color 0.3s ease;
 }
 
 .nav-links a:hover,
 .footer-links a:hover {
-  color: rgb(147, 147, 20);
+  color: #e6d8d8;
   transform: translateX(4px);
 }
 

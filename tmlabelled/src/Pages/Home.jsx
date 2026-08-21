@@ -1,9 +1,9 @@
 import React from 'react'
-
+import Productcard from '../Components/ui/Productcard'
 function Home() {
   return (
     <div>
-  <p>this is home</p>
+  <p><Productcard/></p>
     </div>
   )
 }

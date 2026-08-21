@@ -14,7 +14,8 @@ import Aboutus from "./pages-terms/Aboutus";
 import Policy from "./pages-terms/Policy";
 import terms from "./pages-terms/terms";
 import contact from "./pages-terms/contact";
-
+import Productcard from "./Components/ui/Productcard";
+import Productdetail from "./Product-details/Productdetail";
 function App() {
   return (
     <Routes>
@@ -35,6 +36,8 @@ function App() {
       <Route path="term" element={<terms/>}/>
       <Route path="contactus" element={<contact/>}/>
 
+      <Route path="/product/:id" element={<Productdetail/>}/>
+       
 
       
       </Route>
